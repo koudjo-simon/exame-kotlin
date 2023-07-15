@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Examen</string>
+    <string name="nom_prenoms"><![CDATA[Nom & Prenoms]]></string>
+    <string name="email">Email</string>
+    <string name="t_lephone">Télephone</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="confirmer_mot_de_passe">Confirmer Mot de passe</string>
+    <string name="valider">Valider</string>
+    <string name="inscription">Inscription</string>
+    <string name="connection">Connection</string>
+</resources>

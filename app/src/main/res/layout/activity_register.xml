@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".Register">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/baseline_account_circle_24"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/inscription"
+        android:textColor="@color/bleu"
+        android:textSize="50sp"
+        android:layout_marginBottom="20dp"/>
+    <EditText
+        android:id="@+id/reg_nom_prenoms_edt"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/nom_prenoms"
+        android:inputType="text"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="10dp"/>
+    <EditText
+        android:id="@+id/reg_email_edt"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="10dp"/>
+    <EditText
+        android:id="@+id/reg_telephone_edt"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/t_lephone"
+        android:inputType="phone"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="10dp"/>
+    <EditText
+        android:id="@+id/reg_mot_de_passe_edt"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/mot_de_passe"
+        android:inputType="textPassword"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="10dp"/>
+    <EditText
+        android:id="@+id/reg_conf_mot_de_passe_edt"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/confirmer_mot_de_passe"
+        android:inputType="textPassword"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="10dp"/>
+    <Button
+        android:id="@+id/reg_valider_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/valider"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"/>
+</LinearLayout>
+
+</ScrollView>
